@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper {
+    width: 70vw;
+    margin: 0px auto;
+}
+.header__01 {
+    background-color: rgba(136, 191, 183, 0.8);
+}
+.nav-menu__ul01 { 
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-weight: 900;
+}
+.nav-menu__ul01 a:link, .nav-menu__ul01 a:visited {
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #106338;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+}
+.nav-menu__ul01 a:hover {
+    color: black;
+    background-color: #5384B1;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+}
+.main-header__h01 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.main-content__div01 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.left-column01__div01 > h2, .right-column01__div01 > h2 {
+    font-family: "Georgia";
+}
+.left-column01__div01, .right-column01__div01 {
+    width: 23vw;
+    text-align: justify;
+    margin-top: 40px;
+    font-family: Roboto;
+}
+.left-column01__div01 > h2, p {
+    margin-bottom: 20px;
+}
+.left-column01__div01 > h2, .right-column01__div01 > h2  {
+    text-align: center;
+}
+.right-column01__div01 {
+    width: 23vw;
+}
+.image__photo-main01 {
+    width: 23vw;  
+}
+.right-column01__div01 > h2, p {
+    margin-bottom: 20px;
+}
+.right-column01__ul01 {
+    margin-left: 20px;
+    list-style-type: circle;
+}
+.footer__01 {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.contacts-list__ul01 {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.contacts-list__ul01 img {
+    width: 20px;
+    height: 20px;
+}
+.contacts-list__ul01 li {
+    margin: 10px 30px;
+}
+.contacts-list__ul01 a:link, .contacts-list__ul01 a:visited {
+    color: white;
+    text-decoration: none;
+    transition-duration: 1.5s;
+    transition-timing-function: ease-out;
+}
+.contacts-list__ul01 a:hover {
+    color: aqua;
+    transition-duration: 1.5s;
+    transition-timing-function: ease-out;
+}
